@@ -1,4 +1,3 @@
-require('@noble/ciphers');
 const {
   Client,
   GatewayIntentBits,
