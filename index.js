@@ -41,7 +41,7 @@ function nowPlayingRow() {
 function nowPlayingEmbed(queue, song) {
   return new EmbedBuilder()
     .setColor(0x2b2d31)
-    .setAuthor({ name: 'Now Playing' })
+    .setAuthor({ name: 'Lynette • Now Playing' })
     .setTitle(song.name)
     .setURL(song.url)
     .setThumbnail(song.thumbnail)
@@ -50,7 +50,7 @@ function nowPlayingEmbed(queue, song) {
       { name: 'Requested By', value: `<@${song.member.id}>`, inline: true },
       { name: 'Volume', value: `${queue.volume}%`, inline: true }
     )
-    .setFooter({ text: `Queue: ${queue.songs.length} song(s)` });
+    .setFooter({ text: `Lynette • Queue: ${queue.songs.length} song(s)` });
 }
 
 client.once('ready', () => {
