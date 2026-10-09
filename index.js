@@ -7,7 +7,7 @@ const {
   ButtonBuilder,
   ButtonStyle,
 } = require('discord.js');
-const { StayTube, YtDlpPlugin } = require('@staytube/staytube');
+const { StayTube, YtDlpPlugin } = require('staytubejs');
 
 const PREFIX = process.env.PREFIX || '^';
 
