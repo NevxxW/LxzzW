@@ -23,7 +23,7 @@ const client = new Client({
 const player = new StayTube(client, {
   plugins: [new YtDlpPlugin()],
   leaveOnEmpty: false,
-  leaveOnEnd: false,
+  leaveOnFinish: false,
   leaveOnStop: false,
   defaultVolume: 50,
 });
