@@ -5,11 +5,12 @@
   "scripts": {
     "start": "node index.js"
   },
- "dependencies": {
+"dependencies": {
   "@discordjs/voice": "^0.18.0",
+  "@noble/ciphers": "^1.0.0",
   "discord.js": "^14.14.1",
   "dotenv": "^16.4.5",
-  "libsodium-wrappers": "^0.7.13",
+  "ffmpeg-static": "^5.2.0",
   "opusscript": "^0.1.1",
   "staytubejs": "^1.0.0"
 }
