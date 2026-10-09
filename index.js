@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('@noble/ciphers');
 const {
   Client,
   GatewayIntentBits,
