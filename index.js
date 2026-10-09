@@ -55,7 +55,7 @@ function nowPlayingEmbed(queue, song) {
 
 client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);
-  client.user.setActivity(`${PREFIX}play`, { type: 2 });
+  client.user.setActivity(`${PREFIX}play | Lynette`, { type: 2 });
 });
 
 client.on('messageCreate', async (message) => {
